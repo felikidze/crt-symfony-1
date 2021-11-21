@@ -3,6 +3,7 @@ version: '1.0'
 services:
   app:
     image: felikidze/crt-symfony:dockerHomework
+    container-name: App
 
   database:
     image: postgres:11-alpine
